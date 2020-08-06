@@ -1,0 +1,59 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ml-5" routerLinkActive='active'>
+                <a class="nav-link " [routerLink]="['inicio']">Inicio </a>
+            </li>
+            <li class="nav-item dropdown ml-5" routerLinkActive='active'>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                La Revista
+                </a>
+                <div class="dropdown-menu bg-dark submenu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" [routerLink]="['somos']">Quienes Somos</a>
+                    <a class="dropdown-item" [routerLink]="['mediaKit']">Media Kit</a>
+                    <a class="dropdown-item" [routerLink]="['ediciones']">Ediciones</a>
+
+                </div>
+            </li>
+            <li class="nav-item ml-5" routerLinkActive='active'>
+                <a class="nav-link" [routerLink]="['eventos']">Eventos</a>
+            </li>
+            <li class="nav-item dropdown ml-5" routerLinkActive='active'>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Articulos
+                </a>
+                <div class="dropdown-menu bg-dark submenu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" [routerLink]="['articulo']">Hidrocarburos</a>
+                    <a class="dropdown-item" [routerLink]="['articulo']">Mineria</a>
+                    <a class="dropdown-item" [routerLink]="['articulo']">Energia</a>
+                    <a class="dropdown-item" [routerLink]="['articulo']">Gestion</a>
+                    <a class="dropdown-item" [routerLink]="['articulo']">Tecnologia</a>
+
+                </div>
+            </li>
+            <li class="nav-item ml-5" routerLinkActive='active'>
+                <a class="nav-link" [routerLink]="['entrevista']">Entrevista</a>
+            </li>
+            <li class="nav-item dropdown ml-5" routerLinkActive='active'>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Publicidad
+                </a>
+                <div class="dropdown-menu bg-dark submenu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" [routerLink]="['publicidad']">Clientes</a>
+                    <a class="dropdown-item" [routerLink]="['publicidad']">Tarifario</a>
+                </div>
+            </li>
+
+            <li class="nav-item ml-5" routerLinkActive='active'>
+                <a class="nav-link" [routerLink]="['contacto']">Contacto</a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>

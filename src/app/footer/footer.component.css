@@ -1,0 +1,173 @@
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer {
+    height: 450px;
+    padding-top: 30px;
+}
+
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-footer {
+    background-color: #252422;
+}
+
+.footer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer2 {
+    max-width: 235px;
+    width: 24.668425681618%;
+    margin-right: 0.5408970976%;
+}
+
+.footer2 label {
+    margin: 0 0 10px 0;
+    color: aliceblue;
+}
+
+.footer2 div p li {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.footer2 div {
+    width: 230px;
+}
+
+.sociales {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sociales a {
+    font-size: 40px;
+}
+
+.sociales div div {
+    width: 58px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px -1px #FFF;
+}
+
+.sociles1 {
+    display: flex;
+    justify-content: center;
+}
+
+.sociles1 div a {
+    margin-left: 10px;
+    color: white;
+}
+
+.margin {
+    margin-left: 5px;
+}
+
+.gmail {
+    margin-left: 2px;
+}
+
+.inst {
+    margin-left: 2.6px;
+}
+
+.face {
+    background-color: royalblue;
+}
+
+.twiter {
+    background-color: #31B5EE;
+}
+
+.mail {
+    background-color: #F62434;
+}
+
+.insta {
+    background-color: #3ED1EB;
+}
+
+.sociles1 div:not(:nth-child(4)) {
+    margin-right: 50px;
+}
+
+.sociles1 div a i:hover {
+    color: #dddddd;
+}
+
+.copi-rigth {
+    text-align: center;
+    color: aliceblue;
+}
+
+.whitee {
+    color: white;
+}
+
+@media only screen and (max-width: 962px) {
+    /* Features */
+    .footer {
+        height: 750px;
+    }
+    .footer2 {
+        width: 99.8055925433%;
+    }
+    .footer1 :nth-child(3n) {
+        margin-right: 0.5408970976%;
+    }
+    .footer1 :nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .footer {
+        height: 1300px;
+    }
+    .footer1 {
+        flex-direction: column;
+    }
+    .footer1 :nth-child(1) {
+        margin-right: 0px;
+    }
+    .footer1 :nth-child(3) {
+        margin-right: 0px;
+    }
+    .sociales div div {
+        width: 45px;
+        height: 45px;
+    }
+    .sociales {
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+    .sociles1 i {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    .sociles1 div a {
+        height: 25px;
+        width: 45px;
+        margin-left: 7px;
+    }
+    .sociles1 div a i {
+        padding-bottom: 10px;
+    }
+}

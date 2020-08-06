@@ -1,0 +1,7 @@
+.submenu a {
+    color: white;
+}
+
+.submenu a:hover {
+    color: black;
+}
